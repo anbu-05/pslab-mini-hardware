@@ -5821,16 +5821,6 @@
 		)
 		(uuid "0014801d-eae5-44d3-8fe2-3efac6de30b1")
 	)
-	(label "USB_D+"
-		(at 267.97 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "02ff75c3-c38e-47e2-aee2-89d7eacbd925")
-	)
 	(label "XOUT"
 		(at 152.4 152.4 0)
 		(effects
@@ -6000,16 +5990,6 @@
 			(justify left bottom)
 		)
 		(uuid "942da4cf-79d0-4eb8-b68f-da8d1538ac95")
-	)
-	(label "USB_D-"
-		(at 267.97 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9a225fb4-0bb6-4321-bdcc-17e5cfa7f105")
 	)
 	(label "VREG_AVDD"
 		(at 154.305 90.17 0)
@@ -6200,6 +6180,17 @@
 			(justify left)
 		)
 		(uuid "30dd2ed1-6ec4-444d-8734-04b44b523ad5")
+	)
+	(hierarchical_label "D-"
+		(shape input)
+		(at 267.97 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3806a3c8-f4b1-4db3-859b-924870aea9cb")
 	)
 	(hierarchical_label "GPIO0"
 		(shape input)
@@ -6464,6 +6455,17 @@
 			(justify left)
 		)
 		(uuid "bbdb2df2-6301-4bef-8f6a-5f34afcfc0e3")
+	)
+	(hierarchical_label "D+"
+		(shape input)
+		(at 267.97 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c07d8e79-b3d5-4d83-a318-b2ba503d398d")
 	)
 	(hierarchical_label "GPIO18"
 		(shape input)

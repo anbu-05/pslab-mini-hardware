@@ -979,6 +979,10 @@
     [
       "df7b347b-4840-440b-a95b-1a3d45ea8538",
       "RP2350_80QFN_minimal"
+    ],
+    [
+      "77b8879f-1c45-4512-a458-c5451cf3078c",
+      "adc-AD9629"
     ]
   ],
   "text_variables": {}
